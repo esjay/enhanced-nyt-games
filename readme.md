@@ -1,4 +1,4 @@
-# browser-extension-template
+# enhanced-nyt-gamaes
 
 [link-rgh]: https://github.com/sindresorhus/refined-github
 [link-ngh]: https://github.com/sindresorhus/notifier-for-github
