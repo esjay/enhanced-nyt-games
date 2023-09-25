@@ -6,3 +6,26 @@
 	background: #fff;
 	z-index: 999999;
 }
+
+#board [id^=row-] {
+	display: flex;
+	border: 1px solid rgba(0,0,0,0.25);
+}
+#board .item {
+	flex: auto;
+	position: unset;
+	margin: 0 0.5rem;
+	font-size: math;
+}
+#board .item .enyt-handle {
+	cursor: move;
+	cursor: -webkit-grabbing;
+	display: inline-block;
+	/* position: absolute; */
+	top: 0;
+	left: .5rem;
+	height: 2rem;
+	width: 100%;
+	background-color: #fff;
+	opacity: .33;
+}
